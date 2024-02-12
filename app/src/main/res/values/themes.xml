@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <style name="Base.Theme.MovieListApp" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+    <style name="Theme.MovieListApp" parent="Base.Theme.MovieListApp" />
+
+    <style name="Theme.MovieListApp.NoActionBar" parent="Theme.MovieListApp">
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="Theme.MovieListApp.TransparentToolBar" parent="Base.Theme.MovieListApp">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+</resources>
